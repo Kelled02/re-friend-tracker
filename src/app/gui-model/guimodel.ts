@@ -222,9 +222,31 @@ export class GuiModel {
                             "icon": "fa-weixin",
                             "color": "wisteria",
                             "page": "groupspage",
-                           },
+                           },          {
+                            "type": "button",
+                            "name": "Activitypage",
+                            "icon": "fa-user",
+                            "color": "red",
+                            "page": "activityspage",
+                        },
                     ]
-                },
+                },{
+                    "id": "activityspage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        }, {
+                            "type": "list",
+                            "icon": "fa-user",
+                            "color": "blue",
+                            "search": true,
+                            "url": "/activity",
+                            "page": "friendlist" }
+                        
+                        
+                       
+                    ]
+                }, 
                 {
                     "id": "friendspage",
                     "elementList": [
